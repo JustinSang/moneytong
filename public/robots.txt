@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /sudoku
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+Disallow: /sudoku
+
+Sitemap: https://moneytong.com/sitemap.xml

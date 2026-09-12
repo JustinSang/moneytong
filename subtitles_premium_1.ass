@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CapCut,AppleSDGothicNeo,110,&H00FFFFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,-2,0,1,9,6,5,10,10,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.01,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&H002ECAFF&}5060 세대라면
+Dialogue: 0,0:00:01.01,0:00:02.02,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&HFFFFFF&}무조건 보세요.
+Dialogue: 0,0:00:02.02,0:00:03.03,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&HFFFFFF&}모르고 지나치면
+Dialogue: 0,0:00:03.03,0:00:04.04,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&H002ECAFF&}평생 손해
+Dialogue: 0,0:00:04.04,0:00:05.05,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&HFFFFFF&}보는 숨은
+Dialogue: 0,0:00:05.05,0:00:06.06,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&HFFFFFF&}내 돈
+Dialogue: 0,0:00:06.06,0:00:07.08,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&H002ECAFF&}300만 원,
+Dialogue: 0,0:00:07.08,0:00:08.09,CapCut,,0,0,0,,{\fscx75\fscy75\t(0,150,\fscx100\fscy100)}{\c&HFFFFFF&}확인하셨나요?

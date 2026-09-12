@@ -1,0 +1,15 @@
+머니통 성과데이터 (최근 7일, 수집 2026-08-24) — 전부 실데이터(GA4/SC API)
+
+[GA4 유입/조회 — 실데이터]
+페이지 / 조회수 / 사용자 / 평균세션(초)
+/ / 58 / 22 / 218
+/blog/basic-pension / 7 / 2 / 32
+/blog/contract-power-calculator / 5 / 3 / 59
+/blog/national-pension / 4 / 2 / 13
+/blog/sweet-potato-pilot / 3 / 2 / 605
+/blog/electricity-bill / 2 / 2 / 8
+/contact / 2 / 1 / 1329
+/blog/car-tax-calculator / 1 / 1 / 10
+/blog/health-insurance-refund / 1 / 1 / 0
+/privacy / 1 / 1 / 0
+/terms / 1 / 1 / 38

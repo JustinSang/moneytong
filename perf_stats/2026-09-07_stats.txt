@@ -1,0 +1,19 @@
+머니통 성과데이터 (최근 7일, 수집 2026-09-07) — 전부 실데이터(GA4/SC API)
+
+[GA4 유입/조회 — 실데이터]
+페이지 / 조회수 / 사용자 / 평균세션(초)
+/ / 36 / 18 / 34
+/blog/loan-calculator.html / 6 / 1 / 701
+/blog/long-term-care-insurance.html / 6 / 1 / 4
+/blog/health-insurance-dependent.html / 3 / 1 / 2
+/contact.html / 3 / 1 / 24
+/blog/basic-pension-deduction.html / 2 / 1 / 2
+/blog/acquisition-tax-calculator/ / 1 / 1 / 0
+/blog/basic-pension / 1 / 1 / 11
+/blog/national-pension/ / 1 / 1 / 11
+/blog/unemployment-benefits/ / 1 / 1 / 26
+/sudoku / 1 / 1 / 1
+
+[Search Console 검색어 — 실데이터]
+검색어 / 클릭 / 노출 / CTR% / 평균순위
+에어컨 요금 계산 / 0 / 1 / 0.0 / 52.0

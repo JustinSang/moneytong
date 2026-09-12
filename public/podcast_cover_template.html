@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      width: 1400px;
+      height: 1400px;
+      background: radial-gradient(circle at 80% 20%, #1e3a8a 0%, #0f172a 45%, #020617 100%);
+      font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Noto Sans KR', sans-serif;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 90px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    /* Background Glow Effects */
+    .glow-1 {
+      position: absolute;
+      top: -150px;
+      right: -150px;
+      width: 650px;
+      height: 650px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.25) 0%, rgba(0,0,0,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .glow-2 {
+      position: absolute;
+      bottom: -150px;
+      left: -150px;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(234, 179, 8, 0.15) 0%, rgba(0,0,0,0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    /* Outer Aesthetic Frame */
+    .frame {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      right: 40px;
+      bottom: 40px;
+      border: 2px solid rgba(56, 189, 248, 0.35);
+      border-radius: 36px;
+      pointer-events: none;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(14, 165, 233, 0.15);
+      border: 1.5px solid rgba(56, 189, 248, 0.5);
+      padding: 12px 28px;
+      border-radius: 9999px;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #38bdf8;
+      backdrop-filter: blur(10px);
+    }
+    .live-tag {
+      font-size: 22px;
+      font-weight: 700;
+      color: #94a3b8;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(51, 65, 85, 0.8);
+      padding: 10px 24px;
+      border-radius: 14px;
+      letter-spacing: 1px;
+    }
+
+    /* Main Center Hero */
+    .hero {
+      text-align: center;
+      z-index: 10;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .series-title {
+      font-size: 34px;
+      font-weight: 700;
+      color: #cbd5e1;
+      letter-spacing: 3px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .series-title span {
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+    }
+    .main-title {
+      font-size: 82px;
+      font-weight: 900;
+      line-height: 1.18;
+      letter-spacing: -2px;
+      color: #ffffff;
+      text-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+      margin-bottom: 24px;
+    }
+    .highlight-gold {
+      background: linear-gradient(135deg, #fef08a 0%, #eab308 50%, #ca8a04 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    .highlight-blue {
+      background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 50%, #0284c7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    .sub-hook {
+      font-size: 42px;
+      font-weight: 800;
+      color: #f1f5f9;
+      letter-spacing: -0.5px;
+    }
+
+    /* 3 Pillar Cards (Pristine Grid) */
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      z-index: 10;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.75);
+      border: 1.5px solid rgba(56, 189, 248, 0.3);
+      border-radius: 24px;
+      padding: 32px 24px;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+    .card-icon {
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 27px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    .card-desc {
+      font-size: 20px;
+      font-weight: 600;
+      color: #38bdf8;
+    }
+
+    /* Footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(2, 6, 23, 0.85);
+      border: 1px solid rgba(30, 41, 59, 0.9);
+      border-radius: 20px;
+      padding: 24px 36px;
+      z-index: 10;
+    }
+    .footer-left {
+      font-size: 24px;
+      font-weight: 700;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .footer-left strong {
+      color: #f1f5f9;
+    }
+    .footer-right {
+      font-size: 22px;
+      font-weight: 700;
+      color: #eab308;
+      background: rgba(234, 179, 8, 0.12);
+      border: 1px solid rgba(234, 179, 8, 0.3);
+      padding: 8px 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-1"></div>
+  <div class="glow-2"></div>
+  <div class="frame"></div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="brand-badge">
+      📻 MONEYTONG ORIGINAL
+    </div>
+    <div class="live-tag">
+      5060 금융 라디오
+    </div>
+  </div>
+
+  <!-- Main Hero -->
+  <div class="hero">
+    <div class="series-title">
+      <span>제1화</span> 2026 연금 완벽 가이드
+    </div>
+    <h1 class="main-title">
+      <span class="highlight-gold">국민연금</span> <span style="color:#94a3b8; font-weight:400;">vs</span> <span class="highlight-blue">기초연금</span>
+    </h1>
+    <p class="sub-hook">
+      100% 최대 수령 핵심 비법 총정리
+    </p>
+  </div>
+
+  <!-- 3 Pillar Feature Cards -->
+  <div class="grid-cards">
+    <div class="card">
+      <div class="card-icon">🛡️</div>
+      <div class="card-title">감액 없이 일하는 법</div>
+      <div class="card-desc">A값 308만원 초과 방어</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">💰</div>
+      <div class="card-title">기초연금 34.9만원</div>
+      <div class="card-desc">선정기준액 247만원 충족</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">👥</div>
+      <div class="card-title">부부 20% 감액 방지</div>
+      <div class="card-desc">연계 감액 역전 방지책</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-left">
+      🎙️ <strong>2인 금융 전문가 대화형 심층 팟캐스트</strong> · 머니통 미디어랩
+    </div>
+    <div class="footer-right">
+      ⏱️ 20분 완결
+    </div>
+  </div>
+</body>
+</html>

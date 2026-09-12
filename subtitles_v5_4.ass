@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CapCutStyle,AppleSDGothicNeo,120,&H00FFFFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,-3,0,1,6,5,5,10,10,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.97,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}지금 당장
+Dialogue: 0,0:00:00.97,0:00:01.95,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}프로필 링크를
+Dialogue: 0,0:00:01.95,0:00:02.93,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}누르고, 내
+Dialogue: 0,0:00:02.93,0:00:03.91,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}계좌로 들어올
+Dialogue: 0,0:00:03.91,0:00:04.88,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}숨은 지원금을
+Dialogue: 0,0:00:04.88,0:00:05.86,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}확인해 보세요!
+Dialogue: 0,0:00:05.86,0:00:06.84,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}팔로우는 필수입니다.

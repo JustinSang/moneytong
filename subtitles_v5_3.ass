@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CapCutStyle,AppleSDGothicNeo,120,&H00FFFFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,-3,0,1,6,5,5,10,10,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.08,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}이제 머리
+Dialogue: 0,0:00:01.08,0:00:02.16,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}아프게 찾지
+Dialogue: 0,0:00:02.16,0:00:03.24,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}마세요. 머니통에서
+Dialogue: 0,0:00:03.24,0:00:04.32,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}5060 맞춤
+Dialogue: 0,0:00:04.32,0:00:05.40,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}혜택과 숨은
+Dialogue: 0,0:00:05.40,0:00:06.49,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}지원금 정보를
+Dialogue: 0,0:00:06.49,0:00:07.57,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}가장 쉽고
+Dialogue: 0,0:00:07.57,0:00:08.65,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}빠르게 짚어드립니다.

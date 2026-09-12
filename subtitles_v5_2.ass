@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CapCutStyle,AppleSDGothicNeo,120,&H00FFFFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,-3,0,1,6,5,5,10,10,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.18,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}정부지원금,
+Dialogue: 0,0:00:01.18,0:00:02.36,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}기초연금.
+Dialogue: 0,0:00:02.36,0:00:03.55,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}조건도 복잡하고
+Dialogue: 0,0:00:03.55,0:00:04.73,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}서류도 많아서
+Dialogue: 0,0:00:04.73,0:00:05.92,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}포기하셨다고요?
+Dialogue: 0,0:00:05.92,0:00:07.10,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}신청 안
+Dialogue: 0,0:00:07.10,0:00:08.29,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0000FFFF&}하면 나라에서는
+Dialogue: 0,0:00:08.29,0:00:09.47,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}절대 먼저
+Dialogue: 0,0:00:09.47,0:00:10.66,CapCutStyle,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H00FFFFFF&}챙겨주지 않습니다.

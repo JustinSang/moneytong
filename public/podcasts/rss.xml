@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://moneytong.com/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <title>머니통 5060 돈 되는 라디오</title>
+    <link>https://moneytong.com</link>
+    <language>ko-KR</language>
+    <copyright>© 2026 유니블솔루션 (Unible Solution)</copyright>
+    <description>알면 돈이 되고 모르면 손해 보는 5060 맞춤형 정부지원금, 국민연금, 기초연금, 세금 환급 실생활 금융 전문 2인 대화형 라디오 팟캐스트입니다.</description>
+    
+    <!-- Spotify & Apple Podcasts 필수 소유자 인증 태그 -->
+    <itunes:author>머니통 미디어랩</itunes:author>
+    <itunes:summary>알면 돈이 되고 모르면 손해 보는 5060 맞춤형 정부지원금, 국민연금, 기초연금, 세금 환급 실생활 금융 전문 2인 대화형 라디오 팟캐스트입니다.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>머니통 미디어랩</itunes:name>
+      <itunes:email>justin3y@gmail.com</itunes:email>
+    </itunes:owner>
+    
+    <itunes:image href="https://moneytong.com/images/podcast-cover.png"/>
+    <itunes:category text="Business">
+      <itunes:category text="Investing"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+
+    <item>
+      <title>[머니통 5060 라디오 #1] 2026 국민연금 감액 없이 일하는 법 &amp; 기초연금 34만원 100% 수령 전략</title>
+      <itunes:title>[머니통 5060 라디오 #1] 2026 국민연금 감액 없이 일하는 법 &amp; 기초연금 34만원 100% 수령 전략</itunes:title>
+      <itunes:author>머니통 미디어랩</itunes:author>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+      <itunes:summary>2026년 국민연금 감액 방지법(A값 308만원)과 기초연금 최대 34.9만원 수령 요건을 두 명의 금융 전문가가 따뜻하고 차분하게 설명하는 라디오 팟캐스트입니다.</itunes:summary>
+      <description><![CDATA[[머니통 5060 금융 라디오 제1화]
+
+만 65세를 앞두고 계신가요? 혹은 국민연금을 받으면서 일하고 계신가요?
+두 명의 금융·복지 전문가가 차분하고 따뜻하게 2026년 최신 연금 수령 비법을 완벽 정리해 드립니다!
+
+📌 타임스탬프 (핵심 챕터)
+00:00 기초연금 vs 국민연금 한눈에 비교
+03:45 2026 국민연금 감액 없이 일하는 법 (월소득 A값 308만원 기준)
+08:20 조기노령연금 vs 연기연금 손익분기점 (손해 안 보는 선택)
+13:10 기초연금 단독 34만 9,700원 100% 수령 자격 (선정기준액 247만원)
+17:30 부부 감액 20% 방지 및 국민연금 연계 감액 피하는 법
+
+🌐 내 예상 연금 3초 무료 조회 및 계산기:
+👉 https://moneytong.com/blog/basic-pension
+👉 https://moneytong.com/blog/national-pension
+
+제작: 유니블솔루션 머니통 미디어랩
+]]></description>
+      <enclosure url="https://moneytong.com/audio/pension-podcast-2026.mp3" length="17209887" type="audio/mpeg"/>
+      <guid isPermaLink="false">moneytong-podcast-ep01-2026-pension</guid>
+      <pubDate>Sat, 22 Aug 2026 23:30:00 +0900</pubDate>
+      <itunes:duration>1210</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://moneytong.com/images/podcast-cover.png"/>
+    </item>
+  </channel>
+</rss>
