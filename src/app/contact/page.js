@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <div className="post">
       <h1>서비스 소개 및 문의하기 (About Us & Contact)</h1>
-      <p className="post-meta">최종 업데이트: 2026-09-02 · 머니통 편집국</p>
+      <p className="post-meta">최종 업데이트: 2026-09-26 · 머니통 편집국</p>
       
       <h3>1. 머니통(MoneyTong) 소개 및 설립 목적</h3>
       <p>
@@ -30,7 +30,7 @@ export default function ContactPage() {
       <p>머니통은 정보의 정확성과 최신성을 유지하기 위해 엄격한 3단계 검증 시스템을 운영합니다:</p>
       <ol className="steps">
         <li><strong>1단계 (공식 법령·시행령 원문 대조):</strong> 최신 개정 법률 조항 및 공공기관 고시 공고문을 1:1 교차 대조합니다.</li>
-        <li><strong>2단계 (자체 시뮬레이션 교차 검증):</strong> 구간별 세율, 소득인정액 공제, 감면율 산식을 자체 개발 알고리즘으로 시뮬레이션하여 오차를 0%로 검증합니다.</li>
+        <li><strong>2단계 (자체 시뮬레이션 교차 검증):</strong> 구간별 세율, 소득인정액 공제, 감면율 산식을 자체 개발 알고리즘으로 시뮬레이션하여 결과를 교차 점검합니다.</li>
         <li><strong>3단계 (실무 결격사유 점검):</strong> 단순 요약에 그치지 않고, 실제 신청 시 자주 발생하는 오류 사례와 예외 조건을 꼼꼼히 주석 처리합니다.</li>
       </ol>
 
@@ -38,8 +38,6 @@ export default function ContactPage() {
       <p>머니통은 데이터를 기반으로 금융 소비자의 문제를 해결하는 IT 솔루션 전문 기업 <strong>유니블솔루션(Unible Solution)</strong>에서 개발 및 운영하고 있습니다.</p>
       <ul>
         <li><strong>운영사명:</strong> 유니블솔루션 (Unible Solution)</li>
-        <li><strong>대표자명:</strong> [대표자명]</li>
-        <li><strong>사업자등록번호:</strong> [사업자등록번호]</li>
         <li><strong>주요 업무:</strong> 금융 데이터 분석 모델링, 시뮬레이션 알고리즘 개발, 세무/연금 최적화 플랫폼 운영</li>
         <li><strong>운영 철학:</strong> 저희는 단순한 트래픽 유발을 위한 자극적인 콘텐츠를 배제하고, 정확한 팩트와 수치 기반의 자체 개발 도구(계산기, 시뮬레이터)를 무료로 제공하여 독자들에게 실질적인 가치를 창출하는 것을 최우선 목표로 합니다.</li>
       </ul>
@@ -55,7 +53,7 @@ export default function ContactPage() {
       </div>
 
       <h3>6. 제휴 문의 및 정보 정정 요청</h3>
-      <p>콘텐츠 정정 요청, 비즈니스 제휴, 광고 문의는 아래 공식 창구로 접수해 주시면 24시간 이내에 신속히 검토 후 회신드립니다.</p>
+      <p>콘텐츠 정정 요청, 비즈니스 제휴, 광고 문의는 아래 공식 창구로 접수해 주시면 확인 후 답변드립니다.</p>
       
       <div className="hero-card" style={{ marginTop: '1.5rem', padding: '1.5rem', textAlign: 'center' }}>
         <p style={{ margin: 0, fontSize: '1.15rem', fontWeight: 'bold' }}>📧 공식 고객센터 & 편집국 이메일: support@moneytong.com</p>
