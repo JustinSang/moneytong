@@ -24,7 +24,7 @@ const SOURCE_URL = 'https://basicpension.mohw.go.kr';
 
 const model = {
   title: '2026 기초연금 — 얼마 받고, 누가 받고, 어떻게 신청하나',
-  postMeta: '2026-07-15 · 머니통 편집부',
+  postMeta: '2026-08-01 · 머니통',
   articleType: 'guide',
   slug: 'basic-pension',
   lastModified: '2026-09-10',

@@ -11,7 +11,7 @@ export default function HomeV2() {
         <div className="v2-hero-inner">
           <div className="v2-badge-row">
             <span className="v2-live-dot"></span>
-            <span className="v2-live-text">실시간 업데이트</span>
+            <span className="v2-live-text">공식 데이터 기준 안내</span>
           </div>
           <h1>
             당신이 놓치고 있는<br />
@@ -19,14 +19,14 @@ export default function HomeV2() {
             머니통이 찾아드립니다
           </h1>
           <p className="v2-hero-sub">
-            머니통에서 정부지원금·환급금·알뜰쇼핑 정보를 한눈에 확인하세요.
+            머니통에서 정부지원금·환급금·금융세제 정보를 한눈에 확인하세요.
           </p>
 
           {/* 정보 특성 지표 */}
           <div className="v2-stats-row">
             <div className="v2-stat">
-              <span className="v2-stat-number">100%</span>
-              <span className="v2-stat-label">검증 정보</span>
+              <span className="v2-stat-number">공식</span>
+              <span className="v2-stat-label">공공데이터</span>
             </div>
             <div className="v2-stat-divider"></div>
             <div className="v2-stat">
@@ -59,11 +59,11 @@ export default function HomeV2() {
       {/* 3+4. 카테고리 타일 + 필터 탐색 그리드 */}
       <BrowseSection />
 
-      {/* 5. 뉴스레터 구독 CTA */}
+      {/* 5. 정보 알림 섹션 */}
       <section className="v2-newsletter">
         <div className="v2-newsletter-inner">
-          <h3>📬 매주 월요일, 돈 되는 정보를 무료로 보내드립니다</h3>
-          <p>정부지원금 마감 알림, 방송상품 최저가 속보 등 꼭 알아야 할 핵심만 정리해 드려요.</p>
+          <h3>📬 머니통 주요 금융·복지 가이드</h3>
+          <p>정부지원금·연금·세제 혜택 등 놓치기 쉬운 금융 정보를 알기 쉽게 정리해 드립니다.</p>
           <NewsletterForm />
         </div>
       </section>

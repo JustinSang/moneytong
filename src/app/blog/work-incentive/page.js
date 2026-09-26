@@ -159,7 +159,7 @@ export default function WorkIncentivePage() {
 
         <div className="eeat-byline">
           <strong>ℹ️ 이 글은 이렇게 작성됐습니다</strong>
-          이 글은 머니통(MoneyTong) 편집부가 국세청·홈택스 등 공공기관 공개자료를 바탕으로 조사·작성 및 전문 검수했습니다. 소득·재산 기준과 지급액·신청일은 매년 바뀔 수 있으니, 본인의 정확한 대상 여부·금액·일정은 반드시 <strong>홈택스(hometax.go.kr)</strong> 또는 국세청 상담센터(☎126)에서 확인하시기 바랍니다.
+          이 글은 국세청·홈택스 등 공공기관 공개자료를 바탕으로 머니통이 조사·정리한 정보입니다. 소득·재산 기준과 지급액·신청일은 매년 바뀔 수 있으니, 본인의 정확한 대상 여부·금액·일정은 반드시 <strong>홈택스(hometax.go.kr)</strong> 또는 국세청 상담센터(☎126)에서 확인하시기 바랍니다.
         </div>
       </article>
     </>

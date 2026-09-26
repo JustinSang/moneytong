@@ -331,9 +331,9 @@ export default function GroundedArticle({ model }) {
     dateModified: modifiedDate,
     author: { 
       "@type": "Organization", 
-      name: "머니통 편집부",
+      name: "머니통",
       url: "https://moneytong.com/contact",
-      description: "머니통 편집국은 정부지원금, 세무, 대출, 연금 데이터를 분석하여 시니어 금융 소비자를 돕는 전문가 그룹입니다."
+      description: "머니통은 정부지원금, 세무, 대출, 연금 등 공공 금융 정보를 알기 쉽게 전달하는 금융 정보 가이드입니다."
     },
     publisher: {
       "@type": "Organization",
@@ -411,7 +411,7 @@ export default function GroundedArticle({ model }) {
 
         {m.byline && (
           <div className="eeat-byline">
-            <strong>ℹ️ 이 글은 이렇게 작성됐습니다</strong>
+            <strong>ℹ️ 안내 및 출처 고지</strong>
             {m.byline}
           </div>
         )}
